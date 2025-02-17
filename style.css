@@ -1,0 +1,214 @@
+/* Importar la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.custom-header {
+    background-color: #343a40; /* Color oscuro */
+    display: flex;
+    align-items: center;
+}
+
+.custom-header h1 {
+    font-size: 24px;
+}
+
+nav a {
+    font-size: 16px;
+}
+
+.dropdown button {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.dropdown button img {
+    border: 2px solid white;
+    padding: 2px;
+}
+
+/* Encabezado */
+header {
+    background-color: #5e2a84 !important; /* Morado */
+    color: white;
+    padding: 20px 0;
+    border-radius: 20px; /* Esquinas redondeadas */
+    margin: 20px; /* Espacio alrededor del header */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #ffffff58; /* Amarillo cuando pasa el ratón */
+}
+
+/* Botones */
+.btn {
+    background-color: #5e2a84;
+    color: white;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #545454;
+}
+
+/* Fondo principal y textos */
+main {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+h2, h3 {
+    font-weight: 600;
+    color: #5e2a84; /* Morado */
+}
+
+p {
+    font-size: 1.1rem;
+    color: #ddd;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    color: #ddd;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #bbb;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Inputs y formularios */
+input, select, button {
+    border-radius: 5px;
+    border: 1px solid #333;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    width: 100%;
+}
+
+input:focus, select:focus, button:focus {
+    border-color: #5e2a84;
+    outline: none;
+}
+
+/* Enlaces */
+a {
+    color: #5e2a84;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f4b400;
+}
+
+/* Diseño Responsivo */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+}
+
+.registro-box {
+    background: rgba(255, 255, 255, 0.1); /* Transparente */
+    backdrop-filter: blur(10px); /* Efecto borroso */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.registro-box h2 {
+    color: #fff;
+}
+
+.form-control, .form-select {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #5e2a84;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-primary {
+    background-color: #5e2a84;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4b1f6a;
+}
+
+.card {
+    position: relative;
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:focus-within {
+    box-shadow: 0 0 15px 5px rgba(94, 42, 132, 0.7); /* Resplandor morado cuando está seleccionada */
+    outline: none; /* Elimina el borde azul de enfoque */
+}
+

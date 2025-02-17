@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Social - Registro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="custom-header text-white py-3 px-4 d-flex justify-content-between align-items-center">
+        <h1 class="m-0">Conix</h1>
+        <nav>
+            <a href="index.html" class="text-white mx-2">Inicio</a>
+            <a href="login.html" class="text-white mx-2">Login</a>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="registro-box p-4">
+                    <h2 class="text-center">Registro de Usuario</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Usuario *</label>
+                            <input type="text" class="form-control" id="username" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico *</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña *</label>
+                            <input type="password" class="form-control" id="password" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirm-password" class="form-label">Confirmar Contraseña *</label>
+                            <input type="password" class="form-control" id="confirm-password" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre *</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastname" class="form-label">Apellidos</label>
+                            <input type="text" class="form-control" id="lastname">
+                        </div>
+                        <div class="mb-3">
+                            <label for="gender" class="form-label">Género *</label>
+                            <select class="form-select" id="gender" required>
+                                <option value="">Seleccione</option>
+                                <option value="Hombre">Hombre</option>
+                                <option value="Mujer">Mujer</option>
+                                <option value="No Aplica">No Aplica</option>
+                                <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="birthdate" class="form-label">Fecha de Nacimiento *</label>
+                            <input type="date" class="form-control" id="birthdate" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Registrarse</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2025 Conix</p>
+    </footer>
+</body>
+</html>

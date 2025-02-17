@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conix - Timeline</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="custom-header text-white py-3 px-4 d-flex justify-content-between align-items-center">
+        <h1 class="m-0">Conix</h1>
+        
+        <nav class="d-flex align-items-center">
+            <a href="index.html" class="text-white mx-2">Inicio</a>
+            <a href="login.html" class="text-white mx-2">Login</a>
+            <a href="registro.html" class="text-white mx-2">Registro</a>
+            <a href="timeline.html" class="text-white mx-2">Timeline</a>
+    
+            <div class="dropdown ms-3">
+                <button class="btn btn-outline-light dropdown-toggle d-flex align-items-center" type="button" id="userDropdown">
+                    <img src="user-icon.jpg" alt="Usuario" width="30" height="30" class="rounded-circle me-2">
+                    <span>Mi cuenta</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" id="dropdownMenu">
+                    <li><a class="dropdown-item" href="perfil.html">Perfil</a></li>
+                    <li><a class="dropdown-item" href="login.html">Cerrar sesión</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        <div class="row">
+            <!-- Columna izquierda: Chats -->
+            <div class="col-md-3">
+                <h4>Mensajes</h4>
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-center border-bottom pb-2 mb-2">
+                        <img src="usuario1.jpg" alt="Usuario 1" class="rounded-circle me-2" width="30" height="30">
+                        <strong>Vale</strong>
+                        <span class="text-muted ms-auto"><strong> +4 Mensajes nuevos</strong></span>
+                    </li>
+                    
+                    <li class="d-flex align-items-center border-bottom pb-2 mb-2">
+                        <img src="usuario2.jpg" alt="Usuario 2" class="rounded-circle me-2" width="30" height="30">
+                        <strong>Mayte</strong>
+                        <span class="text-muted ms-auto">Visto ayer</span>
+                    </li>
+                    <li class="d-flex align-items-center border-bottom pb-2 mb-2">
+                        <img src="usuario3.jpg" alt="Usuario 3" class="rounded-circle me-2" width="30" height="30">
+                        <strong>Cinthia</strong>
+                        <span class="text-muted ms-auto">Visto hace 1 horas</span>
+                    </li>
+                    <li class="d-flex align-items-center border-bottom pb-2 mb-2">
+                        <img src="usuario4.jpg" alt="Usuario 1" class="rounded-circle me-2" width="30" height="30">
+                        <strong>Gogi</strong>
+                        <span class="text-muted ms-auto">Visto hace 14 horas</span>
+                    </li>
+                    <li class="d-flex align-items-center border-bottom pb-2 mb-2">
+                        <img src="usuario5.jpg" alt="Usuario 2" class="rounded-circle me-2" width="30" height="30">
+                        <strong>Osiel</strong>
+                        <span class="text-muted ms-auto"><strong> +4 Mensajes nuevos</strong></span>
+                    </li>
+                    <li class="d-flex align-items-center border-bottom pb-2 mb-2">
+                        <img src="usuario6.jpg" alt="Usuario 3" class="rounded-circle me-2" width="30" height="30">
+                        <strong>Ale</strong>
+                        <span class="text-muted ms-auto"><strong> +4 Mensajes nuevos</strong></span>
+                    </li>
+                    <li class="d-flex align-items-center border-bottom pb-2 mb-2">
+                        <img src="usuario7.jpg" alt="Usuario 1" class="rounded-circle me-2" width="30" height="30">
+                        <strong>Dani</strong>
+                        <span class="text-muted ms-auto"><strong>JAJAJJKSJ RAQU...</strong></span>
+                    </li>
+                    <li class="d-flex align-items-center border-bottom pb-2 mb-2">
+                        <img src="usuario8.jpg" alt="Usuario 2" class="rounded-circle me-2" width="30" height="30">
+                        <strong>MarinaDiamandis</strong>
+                        <span class="text-muted ms-auto">Enviado</span>
+                    </li>
+                    <li class="d-flex align-items-center border-bottom pb-2 mb-2">
+                        <img src="usuario9.jpg" alt="Usuario 3" class="rounded-circle me-2" width="30" height="30">
+                        <strong>Axel</strong>
+                        <span class="text-muted ms-auto"><strong> +4 Mensajes nuevos</strong></span>
+                    </li>
+                    <li class="d-flex align-items-center border-bottom pb-2 mb-2">
+                        <img src="usuario10.jpg" alt="Usuario 1" class="rounded-circle me-2" width="30" height="30">
+                        <strong>Lan</strong>
+                        <span class="text-muted ms-auto"><strong> +2 Mensajes nuevos</strong></span>
+                    </li>
+                    <li class="d-flex align-items-center border-bottom pb-2 mb-2">
+                        <img src="usuario11.jpg" alt="Usuario 2" class="rounded-circle me-2" width="30" height="30">
+                        <strong>Jesús</strong>
+                        <span class="text-muted ms-auto">Enviado </span>
+                    </li>
+                    <li class="d-flex align-items-center border-bottom pb-2 mb-2">
+                        <img src="usuario12.jpg" alt="Usuario 3" class="rounded-circle me-2" width="30" height="30">
+                        <strong>Xim</strong>
+                        <span class="text-muted ms-auto"><strong> +4 Mensajes nuevos</strong></span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                <h2 class="text-center">Publicaciones</h2>
+            
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5>@rosesarerosie</h5>
+                        <img src="post1.jpg" class="img-fluid rounded" alt="Publicación">
+                        <p class="mt-2">뭘 넣어야할지 모르겠어요!!!</p>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <!-- Icono de Estrella - A la izquierda -->
+                            <div>
+                                <img src="estrella-blanca.png" alt="Estrella" width="20" height="20" class="me-2"> 1.1 millones
+                            </div>
+                            <!-- Icono de Comentar - A la izquierda pero más cercano -->
+                            <div class="ms-3">
+                                <a href="#" class="text-decoration-none text-muted">
+                                    <img src="comentar-icon.png" alt="Comentar" width="20" height="20">
+                                </a>
+                            </div>
+                            <!-- Icono de Compartir - A la derecha -->
+                            <div class="ms-auto">
+                                <a href="#" class="text-decoration-none text-muted">
+                                    <img src="compartir-icono.png" alt="Compartir" width="20" height="20">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5>@gatitoscutes</h5>
+                        <img src="post2.jpg" class="img-fluid rounded" alt="Publicación">
+                        <p class="mt-2">Otro gato naranja!!! >_< </p>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <!-- Icono de Estrella - A la izquierda -->
+                            <div>
+                                <img src="estrella-blanca.png" alt="Estrella" width="20" height="20" class="me-2"> 100 mil
+                            </div>
+                            <!-- Icono de Comentar - A la izquierda pero más cercano -->
+                            <div class="ms-3">
+                                <a href="#" class="text-decoration-none text-muted">
+                                    <img src="comentar-icon.png" alt="Comentar" width="20" height="20">
+                                </a>
+                            </div>
+                            <!-- Icono de Compartir - A la derecha -->
+                            <div class="ms-auto">
+                                <a href="#" class="text-decoration-none text-muted">
+                                    <img src="compartir-icono.png" alt="Compartir" width="20" height="20">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                     
+
+            <!-- Columna derecha: Estados/Historias -->
+            <div class="col-md-3">
+                <h4>Estados</h4>
+                <div class="d-flex flex-column">
+                    <div class="story mb-3 d-flex align-items-center">
+                        <img src="estado1.jpg" class="img-fluid rounded-circle me-2" width="80" height="80" alt="Estado de usuario">
+                        <p class="text-white">@axel1</p>
+                    </div>
+                    <div class="story mb-3 d-flex align-items-center">
+                        <img src="estado2.jpg" class="img-fluid rounded-circle me-2" width="80" height="80" alt="Estado de usuario">
+                        <p class="text-white">@danilingling</p>
+                    </div>
+                    <div class="story mb-3 d-flex align-items-center">
+                        <img src="estado3.jpg" class="img-fluid rounded-circle me-2" width="80" height="80" alt="Estado de usuario">
+                        <p class="text-white">@kaliuchis</p>
+                    </div>
+                    <div class="story mb-3 d-flex align-items-center">
+                        <img src="estado4.jpg" class="img-fluid rounded-circle me-2" width="80" height="80" alt="Estado de usuario">
+                        <p class="text-white">@guitarras</p>
+                    </div>
+                    <div class="story mb-3 d-flex align-items-center">
+                        <img src="estado5.jpg" class="img-fluid rounded-circle me-2" width="80" height="80" alt="Estado de usuario">
+                        <p class="text-white">@x.sj</p>
+                    </div>
+                    <div class="story mb-3 d-flex align-items-center">
+                        <img src="estado6.jpg" class="img-fluid rounded-circle me-2" width="80" height="80" alt="Estado de usuario">
+                        <p class="text-white">@lalalisa</p>
+                    </div>
+                    <div class="story mb-3 d-flex align-items-center">
+                        <img src="estado7.jpg" class="img-fluid rounded-circle me-2" width="80" height="80" alt="Estado de usuario">
+                        <p class="text-white">@sooya</p>
+                    </div>
+                    <div class="story mb-3 d-flex align-items-center">
+                        <img src="estado8.jpg" class="img-fluid rounded-circle me-2" width="80" height="80" alt="Estado de usuario">
+                        <p class="text-white">@rubyjennie</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2025 Conix</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
